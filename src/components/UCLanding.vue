@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <p>Page A</p>
+    <p>Page B</p>
   </div>
 </template>
 
