@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
-import SubmissionSuccess from '../components/SubmissionSuccess'
-import SubmissionFail from '../components/SubmissionFail'
+import SubmissionSuccess from './components/SubmissionSuccess'
+import SubmissionFail from './components/SubmissionFail'
 
 Vue.use(Router)
 
