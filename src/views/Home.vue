@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <img height="500" width="500" alt="University of Crisko logo" src="../assets/uclogo.png">
+    <img alt="UCrisko logo" src="../assets/ucrisko-logo.png">
     <UCLanding />
   </div>
 </template>

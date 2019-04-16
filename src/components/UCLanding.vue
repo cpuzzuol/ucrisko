@@ -1,26 +1,28 @@
 <template>
   <div class="hello">
-    <h1>UCrisko, LLC</h1>
-    <form
-        name="ask-question"
-        method="post"
-        data-netlify="true"
-        data-netlify-honeypot="bot-field"
-        @submit.prevent="handleSubmit"
-    >
-      <input type="hidden" name="form-name" value="ask-question" />
-      <label v-for="(panelist, index) in panelists" :key="index">
-        <input
-            type="radio"
-            name="panelist"
-            @input="ev => form.askPerson = ev.target.value"
-            :value="panelist"
-            :checked="form.askPerson === panelist"
-        />
-        <span>{{ panelist }}</span>
-      </label>
-      <button>Submit</button>
-    </form>
+    <h1 v-show="false">UCrisko, LLC</h1>
+<!--    <form-->
+<!--        name="ask-question"-->
+<!--        method="post"-->
+<!--        data-netlify="true"-->
+<!--        data-netlify-honeypot="bot-field"-->
+<!--        @submit.prevent="handleSubmit"-->
+<!--    >-->
+<!--      <input type="hidden" name="form-name" value="ask-question" />-->
+<!--      <label v-for="(panelist, index) in panelists" :key="index">-->
+<!--        <input-->
+<!--            type="radio"-->
+<!--            name="panelist"-->
+<!--            @input="ev => form.askPerson = ev.target.value"-->
+<!--            :value="panelist"-->
+<!--            :checked="form.askPerson === panelist"-->
+<!--        />-->
+<!--        <span>{{ panelist }}</span>-->
+<!--      </label>-->
+<!--      <button>Submit</button>-->
+<!--    </form>-->
+
+
 <!--    <p>Page A</p>-->
 
 <!--    <button @click="getTasks">Get Tasks</button>-->
