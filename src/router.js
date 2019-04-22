@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from './views/Home.vue'
 import SubmissionSuccess from './components/SubmissionSuccess'
 import SubmissionFail from './components/SubmissionFail'
+import SportsAPI from './components/SportsAPI'
 
 Vue.use(Router)
 
@@ -24,6 +25,11 @@ export default new Router({
       path: '/404',
       name: 'fail',
       component: SubmissionFail
+    },
+    {
+      path: '/sports',
+      name: 'sportsapi',
+      component: SportsAPI
     }
   ]
 })
