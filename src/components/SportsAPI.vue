@@ -9,7 +9,7 @@
 <script>
   import axios from 'axios'
   export default {
-    name: "sportsapi",
+    name: "SportsAPI",
     data() {
       return {
         standings: [],

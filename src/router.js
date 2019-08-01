@@ -4,6 +4,7 @@ import Home from './views/Home.vue'
 import SubmissionSuccess from './components/SubmissionSuccess'
 import SubmissionFail from './components/SubmissionFail'
 import SportsAPI from './components/SportsAPI'
+import MalarkeysMenu from './components/MalarkeysMenu'
 
 Vue.use(Router)
 
@@ -30,6 +31,11 @@ export default new Router({
       path: '/sports',
       name: 'sportsapi',
       component: SportsAPI
+    },
+    {
+      path: '/malarkeys',
+      name: 'malarkeys',
+      component: MalarkeysMenu
     }
   ]
 })
