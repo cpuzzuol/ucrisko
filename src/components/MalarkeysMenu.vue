@@ -1,6 +1,7 @@
 <template>
   <div>
     <h1>Malarkey's Irish Pub Menu</h1>
+    <img src="@/assets/MalarkeysLogo2019_IrishPub.png" />
     <h2>Appetizers</h2>
     <ul>
       <li>Chicken Noodle Soup &mdash; $2.99</li>
